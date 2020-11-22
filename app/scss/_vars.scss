@@ -19,11 +19,29 @@ $title: #243f4d;
 }
 
 %dmsans-medium {
-  font-family: 'DMSans-Medium' , sans-serif;
+  font-family: 'DMSans-Medium', sans-serif;
   font-weight: 500;
 }
 
 %dmsans-bold {
   font-family: 'DMSans-Bold', sans-serif;
   font-weight: 700;
+}
+
+%btn {
+  background-color: #a3bbc8;
+  @extend %dmsans-regular;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+}
+
+
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
 }
