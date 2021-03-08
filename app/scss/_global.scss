@@ -1,5 +1,6 @@
 * {
   color: inherit;
+  outline: none;
 }
 
 a,
@@ -12,13 +13,13 @@ body {
   height: 100%;
 }
 
+
 body {
   @extend %rubik-regular;
   color: $default;
   font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  background-color: #f9f9f9;
+
+  background-color: #fff;
 }
 
 .main {
@@ -35,4 +36,61 @@ body {
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  color: rgba(34, 41, 51, 0.6);
+  display: flex;
+  justify-content: center;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    padding-right: 18px;
+    position: relative;
+
+    &::after {
+      content: "/";
+      position: absolute;
+      right: 7px;
+      bottom: -1px;
+    }
+
+    &:last-child {
+      padding: 0;
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  color: $title;
+  padding-top: 55px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__link {
+    margin-right: 15px;
+    padding: 19px 20px;
+    border: 1px solid $accent;
+  }
+
+  &__link--active {
+    color: #fff;
+    background-color: $accent;
+  }
+
+  &__next {
+    padding: 18px;
+    border: 1px solid $accent;
+  }
 }

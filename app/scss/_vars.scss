@@ -2,6 +2,7 @@ $default: #436372;
 $accent: #a3bbc8;
 $text: #7b7b7b;
 $title: #243f4d;
+$hover: #fcd7b6;
 
 %rubik-regular {
   font-family: 'Rubik-Regular', sans-serif;
@@ -25,6 +26,16 @@ $title: #243f4d;
 
 %dmsans-bold {
   font-family: 'DMSans-Bold', sans-serif;
+  font-weight: 700;
+}
+
+%rubik-light {
+  font-family: 'Rubik-Light', sans-serif;
+  font-weight: 300;
+}
+
+%rubik-bold {
+  font-family: 'Rubik-Bold';
   font-weight: 700;
 }
 

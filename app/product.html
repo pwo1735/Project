@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Glee</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container-big">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/icons/logo.svg" alt="">
+          Glee.
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">
+                Home +
+              </a>
+              <ul class="sub-menu">
+                <li class="sub-menu__item">
+                  <a href="product-list-grid.html" class="sub-menu__link">
+                    Product list 1
+                  </a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="product-list.html" class="sub-menu__link">
+                    Product list 2
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__list-item"><a class="menu__list-link" href="about-us.html">About</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#">Services</a></li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Pages +</a>
+              <ul class="sub-menu">
+                <li class="sub-menu__item">
+                  <a href="login.html" class="sub-menu__link">
+                    Log in
+                  </a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">
+                    Faq
+                  </a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="terms.html" class="sub-menu__link">
+                    Terms
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#">News</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <a class="user-nav__loop href=" #">
+            <img class="user-nav__link-img" src="images/icons/loop.svg" alt="">
+          </a>
+          <div class="user-nav__inner">
+            <a class="user-nav__link href=" #">
+              <img class="user-nav__link-img" src="images/icons/heart.svg" alt="">
+              <span class="user-nav__num">0</span>
+            </a>
+            <span class="user-nav__line"></span>
+            <a class="user-nav__link href=" #">
+              <img class="user-nav__link-img" src="images/icons/cart.svg" alt="">
+              <span class="user-nav__num">0</span>
+            </a>
+          </div>
+          <a class="user-nav__menu href=" #">
+            <img class="user-nav__link-img" src="images/icons/menu.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="page-top">
+      <h4 class="page-top__title">
+        Product Details
+      </h4>
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="index.html">
+              Home
+            </a>
+          </li>
+          <li class="breadcrumbs__item">
+            <span class="breadcrumbs__link" href="#">
+              Product details
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="product">
+      <div class="container">
+        <div class="product-one">
+          <div class="product-one__inner">
+            <div class="product-one__slide product-slide">
+              <div class="product-slide__thumb">
+                <div class="product-slide__thumb-item">
+                  <img src="images/product-slide/1.jpg" alt="">
+                </div>
+                <div class="product-slide__thumb-item">
+                  <img src="images/product-slide/2.jpg" alt="">
+                </div>
+                <div class="product-slide__thumb-item">
+                  <img src="images/product-slide/3.jpg" alt="">
+                </div>
+              </div>
+              <div class="product-slide__big">
+                <div class="product-slide__big-item">
+                  <img src="images/product-slide/1.jpg" alt="">
+                </div>
+                <div class="product-slide__big-item">
+                  <img src="images/product-slide/2.jpg" alt="">
+                </div>
+                <div class="product-slide__big-item">
+                  <img src="images/product-slide/3.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="product-one__content">
+              <h4 class="product-one__title">
+                Pendant lamp
+              </h4>
+              <div class="product-one__rate" data-rateyo-rating="4">
+
+              </div>
+              <div class="product-one__price">
+                23$
+              </div>
+              <p class="product-one__text">
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              </p>
+              <div class="product-one__counter">
+                <input class="product-one__num" type="number" value="1" min="0">
+                <button class="product-one__btn" type="submit">
+                  Add to cart
+                </button>
+              </div>
+              <div class="product-one__tag">
+                SKU: 014
+              </div>
+              <div class="product-one__tag">
+                Category: Lights
+              </div>
+              <div class="product-one__tag">
+                Tag: Decorative
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-tabs">
+          <div class="product-tabs__top">
+            <a class="product-tabs__top-item product-tabs__top-item--active" href="#tab-1">
+              Description
+            </a>
+            <a class="product-tabs__top-item" href="#tab-2">
+              Additional information
+            </a>
+            <a class="product-tabs__top-item" href="#tab-3">
+              Reviews (2)
+            </a>
+          </div>
+
+          <div class="product-tabs__content">
+            <div class="product-tabs__content-item product-tabs__content-item--active" id="tab-1">
+              <p class="product-tabs__desc">
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo Lorem ipsum dolor sit
+                amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="product-tabs__content-item" id="tab-2">
+              <div class="product-tabs__tag">
+                SKU: 014
+              </div>
+              <div class="product-tabs__tag">
+                Category: Lights
+              </div>
+              <div class="product-tabs__tag">
+                Tag: Decorative
+              </div>
+            </div>
+            <div class="product-tabs__content-item" id="tab-3">
+              <div class="comments">
+                <img src="images/avatars/avatar-1.png" class="comments__avatar">
+                <div class="comments__content">
+                  <div class="comments__content-top">
+                    <p class="comments__name">
+                      Michle Jhon
+                    </p>
+                    <p class="comments__date">
+                      2 days ago
+                    </p>
+                    <div class="comments__rate" data-rateyo-rating="4">
+
+                    </div>
+                  </div>
+                  <p class="comments__content-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore
+                    magna
+                    aliqua. Qus ipsum speissei ultrices gravida. Risus commodo viverra maeenas accumsan lacus vel
+                    facilisis.
+                  </p>
+                  <a class="comments__content-reply" href="#">
+                    Reply
+                  </a>
+                </div>
+              </div>
+              <div class="comments">
+                <img src="images/avatars/avatar-2.png" class="comments__avatar">
+                <div class="comments__content">
+                  <div class="comments__content-top">
+                    <p class="comments__name">
+                      Michle Jhon
+                    </p>
+                    <p class="comments__date">
+                      2 days ago
+                    </p>
+                    <div class="comments__rate" data-rateyo-rating="4">
+
+                    </div>
+                  </div>
+                  <p class="comments__content-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore
+                    magna
+                    aliqua. Qus ipsum speissei ultrices gravida. Risus commodo viverra maeenas accumsan lacus vel
+                    facilisis.
+                  </p>
+                  <a class="comments__content-reply" href="#">
+                    Reply
+                  </a>
+                </div>
+              </div>
+
+              <div class="review">
+                <h4 class="review__title">
+                  Add your review
+                </h4>
+                <div class="review__rate-wrapper">
+                  <div class="review__rate-text">Your Rating</div>
+                  <div type="text" class="review__rate" data-rateyo-rating="0"></div>
+                </div>
+                <div class="review__form-textbox">
+                  <input class="review__form-text" type="text" placeholder="Your name">
+                  <input class="review__form-text" type="text" placeholder="E-mail address">
+                </div>
+                <textarea class="review__form-textarea" placeholder="Your text here"></textarea>
+                <button class="review__form-btn">
+                  Leave Review
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="articles">
+      <div class="container">
+        <div class="articles__top">
+          <h4 class="articles__title">
+            Our Insights & Articles
+          </h4>
+          <a class="articles__view-all" href="#">
+            View All
+          </a>
+        </div>
+
+      </div>
+      <div class="articles__bottom">
+        <div class="container">
+          <div class="articles__bottom-inner">
+            <div class="articles__content">
+              <div class="articles__item">
+                <img class="articles__img" src="images/articles/1.jpg" alt="">
+                <div class="articles__type">
+                  NEWS
+                </div>
+                <div class="articles__item-inner">
+                  <a class="articles__text" href="#">
+                    Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                  </a>
+                </div>
+                <div class="articles__about">
+                  <a class="articles__date" href="#">
+                    28 JANUARY, 2020
+                  </a>
+                  <a class="articles__autor" href="#">
+                    BY ADMIN
+                  </a>
+                </div>
+              </div>
+              <div class="articles__item">
+                <img class="articles__img" src="images/articles/2.jpg" alt="">
+                <div class="articles__type">
+                  NEWS
+                </div>
+                <div class="articles__item-inner">
+                  <a class="articles__text" href="#">
+                    Aonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </a>
+                </div>
+                <div class="articles__about">
+                  <a class="articles__date" href="#">
+                    28 JANUARY, 2020
+                  </a>
+                  <a class="articles__autor" href="#">
+                    BY ADMIN
+                  </a>
+                </div>
+              </div>
+              <div class="articles__item">
+                <img class="articles__img" src="images/articles/3.jpg" alt="">
+                <div class="articles__type">
+                  NEWS
+                </div>
+                <div class="articles__item-inner">
+                  <a class="articles__text" href="#">
+                    Rncididunt ut labore et dolore magna aliqua. Ut enim
+                  </a>
+                </div>
+                <div class="articles__about">
+                  <a class="articles__date" href="#">
+                    28 JANUARY, 2020
+                  </a>
+                  <a class="articles__autor" href="#">
+                    BY ADMIN
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="articles__partners">
+              <img class="articles__partners-item" src="images/partners/1.png" alt="">
+              <img class="articles__partners-item" src="images/partners/2.png" alt="">
+              <img class="articles__partners-item" src="images/partners/3.png" alt="">
+              <img class="articles__partners-item" src="images/partners/4.png" alt="">
+              <img class="articles__partners-item" src="images/partners/5.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-top__item">
+          <a class="logo" href="">
+            <img class="logo__img" src="images/icons/logo.svg" alt="">
+            Glee.
+          </a>
+          <ul class="footer-top__list">
+            <li class="footer-top__list-item">
+              <a class="footer-top__list-link" href="#">
+                ADDRESS: 4772 Wines Lane
+                <span>Houston, TX 77032</span>
+              </a>
+            </li>
+            <li class="footer-top__list-item">
+              Telephone:
+              <a class="footer-top__list-link" href="tel: +832-347-5843">
+                +832-347-5843
+              </a>
+            </li>
+            <li class="footer-top__list-item">
+              Email:
+              <a class="footer-top__list-link" href="#">
+                contact@Glee.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item">
+          <h5 class="footer-top__title">
+            Services
+          </h5>
+          <ul class="footer-top__list">
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                About us
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Return Policy
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Our Blog
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Contact Us
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Terms & Condition
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item">
+          <h5 class="footer-top__title">
+            Account
+          </h5>
+          <ul class="footer-top__list">
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Your Account
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Checkout
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Login
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Register
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item">
+          <h5 class="footer-top__title">
+            newsletter
+          </h5>
+          <p class="footer-top__text">
+            Subscribe by our newsletter and get
+            update protidin.
+          </p>
+          <form class="footer-top__form" action="#">
+            <input class="footer-top__form-input" type="email" placeholder="Email address">
+            <button class="footer-top__form-btn" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">
+          ©2020 CopyRight Example. All rights reserved.
+        </p>
+        <ul class="footer-bottom__nav">
+          <li class="footer-bottom__nav-item">
+            <a href="" class="footer-bottom__nav-link">
+              Home
+            </a>
+          </li>
+          <li class="footer-bottom__nav-item">
+            <a href="" class="footer-bottom__nav-link">
+              About
+            </a>
+          </li>
+          <li class="footer-bottom__nav-item">
+            <a href="" class="footer-bottom__nav-link">
+              Blog
+            </a>
+          </li>
+          <li class="footer-bottom__nav-item">
+            <a href="" class="footer-bottom__nav-link">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
