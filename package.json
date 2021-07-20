@@ -1,7 +1,6 @@
 {
   "name": "start__gulp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +23,19 @@
   },
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
+    "cheerio": "^1.0.0-rc.6",
     "ion-rangeslider": "^2.3.1",
-    "jquery-form-styler": "^2.0.2"
-  }
+    "jquery-form-styler": "^2.0.2",
+    "node-sass": "^4.14.1",
+    "sass": "^1.35.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwo1735/Glee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pwo1735/Glee/issues"
+  },
+  "homepage": "https://github.com/pwo1735/Glee#readme",
+  "description": ""
 }

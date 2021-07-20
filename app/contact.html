@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Glee</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container-big">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/icons/logo.svg" alt="">
+          Glee.
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">
+                Home +
+              </a>
+              <ul class="sub-menu">
+                <li class="sub-menu__item">
+                  <a href="product-list-grid.html" class="sub-menu__link">
+                    Product list 1
+                  </a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="product-list.html" class="sub-menu__link">
+                    Product list 2
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__list-item"><a class="menu__list-link" href="about-us.html">About</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#">Services</a></li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Pages +</a>
+              <ul class="sub-menu">
+                <li class="sub-menu__item">
+                  <a href="login.html" class="sub-menu__link">
+                    Log in
+                  </a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">
+                    Faq
+                  </a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="terms.html" class="sub-menu__link">
+                    Terms
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#">News</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <a class="user-nav__loop href=" #">
+            <img class="user-nav__link-img" src="images/icons/loop.svg" alt="">
+          </a>
+          <div class="user-nav__inner">
+            <a class="user-nav__link href=" #">
+              <img class="user-nav__link-img" src="images/icons/heart.svg" alt="">
+              <span class="user-nav__num">0</span>
+            </a>
+            <span class="user-nav__line"></span>
+            <a class="user-nav__link href=" #">
+              <img class="user-nav__link-img" src="images/icons/cart.svg" alt="">
+              <span class="user-nav__num">0</span>
+            </a>
+          </div>
+          <a class="user-nav__menu href=" #">
+            <img class="user-nav__link-img" src="images/icons/menu.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="page-top">
+      <h4 class="page-top__title">
+        Contact
+      </h4>
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="index.html">
+              Home
+            </a>
+          </li>
+          <li class="breadcrumbs__item">
+            <span class="breadcrumbs__link" href="#">
+              Contact
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="contact">
+      <div class="container">
+        <div class="contact__info">
+          <h5 class="contact__info-subtitle">
+            Write Here
+          </h5>
+          <h3 class="contact__info-title">
+            Get In Touch
+          </h3>
+          <div class="contact__info-content">
+            <div class="contact__info-item">
+              <img src="images/contact/adress.svg" class="contact__info-img">
+              <h5 class="contact__info-item-title">
+                Address
+              </h5>
+              <div class="contact__info-adress">
+                2416 Mapleview Drive
+              </div>
+              <div class="contact__info-adress">
+                Tampa, FL 33634
+              </div>
+            </div>
+            <div class="contact__info-item">
+              <img src="images/contact/email.svg" class="contact__info-img">
+              <h5 class="contact__info-item-title">
+                Our Email
+              </h5>
+              <div class="contact__info-adress">
+                Main Email :
+                <a href="mailto:contact@website.com" class="contact__info-href">contact@website.com</a>
+              </div>
+              <div class="contact__info-adress">
+                Inquiries :
+                <a href="mailto:info@mail.com" class="contact__info-href">info@mail.com</a>
+              </div>
+            </div>
+            <div class="contact__info-item">
+              <img src="images/contact/phone.svg" class="contact__info-img">
+              <h5 class="contact__info-item-title">
+                Our Phone
+              </h5>
+              <div class="contact__info-adress">
+                Office Telephone :
+                <a href="tel:0029129102320" class="contact__info-href">0029129102320</a>
+              </div>
+              <div class="contact__info-adress">
+                Mobile :
+                <a href="tel:000 2324 39493" class="contact__info-href">000 2324 39493</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact__content">
+          <div class="review">
+            <div class="review__form-textbox">
+              <div class="review__form-text-wrapper review__form-name">
+                <input class="review__form-text" type="text" placeholder="Name">
+              </div>
+              <div class="review__form-text-wrapper review__form-mail">
+                <input class="review__form-text" type="text" placeholder="E-mail address">
+              </div>
+            </div>
+            <textarea class="review__form-textarea" placeholder="Your text here"></textarea>
+            <button class="review__form-btn">
+              Post Comment
+            </button>
+          </div>
+          <div id="map">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="articles">
+      <div class="container">
+        <div class="articles__top">
+          <h4 class="articles__title">
+            Our Insights & Articles
+          </h4>
+          <a class="articles__view-all" href="blog.html">
+            View All
+          </a>
+        </div>
+
+      </div>
+      <div class="articles__bottom">
+        <div class="container">
+          <div class="articles__bottom-inner">
+            <div class="articles__content">
+              <div class="articles__item">
+                <img class="articles__img" src="images/articles/1.jpg" alt="">
+                <div class="articles__type">
+                  NEWS
+                </div>
+                <div class="articles__item-inner">
+                  <a class="articles__text" href="#">
+                    Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                  </a>
+                </div>
+                <div class="articles__about">
+                  <a class="articles__date" href="#">
+                    28 JANUARY, 2020
+                  </a>
+                  <a class="articles__autor" href="#">
+                    BY ADMIN
+                  </a>
+                </div>
+              </div>
+              <div class="articles__item">
+                <img class="articles__img" src="images/articles/2.jpg" alt="">
+                <div class="articles__type">
+                  NEWS
+                </div>
+                <div class="articles__item-inner">
+                  <a class="articles__text" href="#">
+                    Aonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  </a>
+                </div>
+                <div class="articles__about">
+                  <a class="articles__date" href="#">
+                    28 JANUARY, 2020
+                  </a>
+                  <a class="articles__autor" href="#">
+                    BY ADMIN
+                  </a>
+                </div>
+              </div>
+              <div class="articles__item">
+                <img class="articles__img" src="images/articles/3.jpg" alt="">
+                <div class="articles__type">
+                  NEWS
+                </div>
+                <div class="articles__item-inner">
+                  <a class="articles__text" href="#">
+                    Rncididunt ut labore et dolore magna aliqua. Ut enim
+                  </a>
+                </div>
+                <div class="articles__about">
+                  <a class="articles__date" href="#">
+                    28 JANUARY, 2020
+                  </a>
+                  <a class="articles__autor" href="#">
+                    BY ADMIN
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="articles__partners">
+              <img class="articles__partners-item" src="images/partners/1.png" alt="">
+              <img class="articles__partners-item" src="images/partners/2.png" alt="">
+              <img class="articles__partners-item" src="images/partners/3.png" alt="">
+              <img class="articles__partners-item" src="images/partners/4.png" alt="">
+              <img class="articles__partners-item" src="images/partners/5.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-top__item">
+          <a class="logo" href="">
+            <img class="logo__img" src="images/icons/logo.svg" alt="">
+            Glee.
+          </a>
+          <ul class="footer-top__list">
+            <li class="footer-top__list-item">
+              <a class="footer-top__list-link" href="#">
+                ADDRESS: 4772 Wines Lane
+                <span>Houston, TX 77032</span>
+              </a>
+            </li>
+            <li class="footer-top__list-item">
+              Telephone:
+              <a class="footer-top__list-link" href="tel: +832-347-5843">
+                +832-347-5843
+              </a>
+            </li>
+            <li class="footer-top__list-item">
+              Email:
+              <a class="footer-top__list-link" href="#">
+                contact@Glee.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item">
+          <h5 class="footer-top__title">
+            Services
+          </h5>
+          <ul class="footer-top__list">
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                About us
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Return Policy
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Our Blog
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Contact Us
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Terms & Condition
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item">
+          <h5 class="footer-top__title">
+            Account
+          </h5>
+          <ul class="footer-top__list">
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Your Account
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Checkout
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Login
+              </a>
+            </li>
+            <li class="footer-top__list-link">
+              <a class="footer-top__list-link" href="#">
+                Register
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item">
+          <h5 class="footer-top__title">
+            newsletter
+          </h5>
+          <p class="footer-top__text">
+            Subscribe by our newsletter and get
+            update protidin.
+          </p>
+          <form class="footer-top__form" action="#">
+            <input class="footer-top__form-input" type="email" placeholder="Email address">
+            <button class="footer-top__form-btn" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">
+          ©2020 CopyRight Example. All rights reserved.
+        </p>
+        <ul class="footer-bottom__nav">
+          <li class="footer-bottom__nav-item">
+            <a href="" class="footer-bottom__nav-link">
+              Home
+            </a>
+          </li>
+          <li class="footer-bottom__nav-item">
+            <a href="" class="footer-bottom__nav-link">
+              About
+            </a>
+          </li>
+          <li class="footer-bottom__nav-item">
+            <a href="" class="footer-bottom__nav-link">
+              Blog
+            </a>
+          </li>
+          <li class="footer-bottom__nav-item">
+            <a href="" class="footer-bottom__nav-link">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly" async></script>
+  <script>
+    let map;
+
+    function initMap() {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 29.770518, lng: -95.336359 },
+        zoom: 8,
+        styles: [
+          {
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "hue": "#ff4400"
+              },
+              {
+                "saturation": -68
+              },
+              {
+                "lightness": -4
+              },
+              {
+                "gamma": 0.72
+              }
+            ]
+          },
+          {
+            "featureType": "road",
+            "elementType": "labels.icon"
+          },
+          {
+            "featureType": "landscape.man_made",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "hue": "#0077ff"
+              },
+              {
+                "gamma": 3.1
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "stylers": [
+              {
+                "hue": "#00ccff"
+              },
+              {
+                "gamma": 0.44
+              },
+              {
+                "saturation": -33
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "stylers": [
+              {
+                "hue": "#44ff00"
+              },
+              {
+                "saturation": -23
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "hue": "#007fff"
+              },
+              {
+                "gamma": 0.77
+              },
+              {
+                "saturation": 65
+              },
+              {
+                "lightness": 99
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "labels.text.stroke",
+            "stylers": [
+              {
+                "gamma": 0.11
+              },
+              {
+                "weight": 5.6
+              },
+              {
+                "saturation": 99
+              },
+              {
+                "hue": "#0091ff"
+              },
+              {
+                "lightness": -86
+              }
+            ]
+          },
+          {
+            "featureType": "transit.line",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "lightness": -48
+              },
+              {
+                "hue": "#ff5e00"
+              },
+              {
+                "gamma": 1.2
+              },
+              {
+                "saturation": -23
+              }
+            ]
+          },
+          {
+            "featureType": "transit",
+            "elementType": "labels.text.stroke",
+            "stylers": [
+              {
+                "saturation": -64
+              },
+              {
+                "hue": "#ff9100"
+              },
+              {
+                "lightness": 16
+              },
+              {
+                "gamma": 0.47
+              },
+              {
+                "weight": 2.7
+              }
+            ]
+          }
+        ]
+      });
+    }
+  </script>
+  <script src="js/main.min.js"></script>
+  
+
+</body>
+
+</html>

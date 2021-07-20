@@ -1,5 +1,9 @@
 $(function () {
 
+  $('.user-nav__menu').on('click', function() {
+    $('.menu__list').toggleClass('menu__list--active')
+  });
+
   $('.product-menu__item').on('click', function () {
     $(this).toggleClass('product-menu__item--active');
   });
@@ -108,6 +112,7 @@ $(function () {
       control: '.design-catalog__btn'
     }
   });
+
 
 
 
